@@ -5,6 +5,8 @@ import java.util.HashMap;
 
 /**
  * Created by xty on 21-2-22.
+ * <p>
+ * 这里是b站 爱学习的饲养员
  */
 public class LeetCode {
 
@@ -182,18 +184,18 @@ public class LeetCode {
      */
     /**
      * 给定一个含有 n 个正整数的数组和一个正整数 target 。
-     *
+     * <p>
      * 找出该数组中满足其和 ≥ target 的长度最小的 连续子数组 [numsl, numsl+1, ..., numsr-1, numsr] ，并返回其长度。如果不存在符合条件的子数组，返回 0 。
-     *
+     * <p>
      * 来源：力扣（LeetCode）
      * 链接：https://leetcode-cn.com/problems/minimum-size-subarray-sum
      */
     public static int minSubArrayLen(int target, int[] nums) {
-
+        return -1;
     }
 
     /**
-     *  141 环形链表
+     * 141 环形链表
      * 快慢指针
      */
 
@@ -225,7 +227,7 @@ public class LeetCode {
 
     /**
      * 485.给定一个二进制数组， 计算其中最大连续 1 的个数。
-     *
+     * <p>
      * 输入：[1,1,0,1,1,1]
      * 输出：3
      * 解释：开头的两位和最后的三位都是连续 1 ，所以最大连续 1 的个数是 3.
